@@ -10,7 +10,7 @@ for i in range(1,n+1):
         print(i,end=" ")
     print()
 
-### reverse of a number, palindrome or not
+######## reverse of a number, palindrome or not
 
 n=int(input('Enter number'))
 rev=0
@@ -36,3 +36,5 @@ if sum is temp:
     print('armstrong number')
 else:
     print('not a armstrong number')
+    
+###############
