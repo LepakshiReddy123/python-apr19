@@ -48,4 +48,18 @@ side=int(input('Enter side of square'))
 print('Area of square is:',side*side)
 
 #########swapping of three numbers by sorting them 
+##########fibonacci seriess
+
+a=0
+b=1
+n=int(input())
+print(a,end="")
+print(b,end="")
+if n>=2:
+    for i in range(n):
+        c=a+b
+        a=b
+        b=c
+        print(c,end="")
+
 
